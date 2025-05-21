@@ -12,7 +12,7 @@
 ## Вычислительное окружение
 | CPU | Arch | OS | Compiler |
 |:---:|:---:|:--:|:--:|
-| Apple M3 Pro | arm64v8 | macOS 15.4.1 24E263 | Clang 19.1.7 |
+| Apple M3 Pro (11 threads) | arm64v8 | macOS 15.4.1 24E263 | Clang 19.1.7 |
 
 ## Наивная реализация
 
@@ -69,7 +69,7 @@ double computeVector(double S0, double sigma, double r, double T, double K,
   for (std::size_t i = 0; i < N; i += kVectorSize) {
     alignas(kAlignment) double Ys[kVectorSize];
 
-#pragma omp unroll
+#pragma unroll
     for (std::size_t lane = 0; lane < kVectorSize; ++lane) {
       Ys[lane] = dist(rng);
     }
@@ -93,7 +93,8 @@ double computeVector(double S0, double sigma, double r, double T, double K,
 наивной версией все же есть. Результаты бенчмарка в [таблице](report/results.csv). Векторизованная реализация отработала за $14.7\pm0.2$ мс, наивная
 за $19.7\pm0.6$ мс. Ускорение в 1.3 раза. Здесь наибольший вклад
 внес вероятно unroll цикла с генерацией значений $Y$, также имела место
-векторизация вычисления суммы.
+векторизация вычисления суммы. При замерах фиксировалось число потоков
+=11.
 
 ## Вывод
 
