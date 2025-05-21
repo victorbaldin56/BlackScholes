@@ -1,0 +1,24 @@
+# Build directories
+build/*
+release/*
+
+# Python
+__pycache__/
+.venv/
+
+# Objects / executables / libraries
+*.o
+*.a
+*.so
+*.obj
+*.exe
+*.dll
+
+# Generated tests / data
+*.dat
+
+# Conan
+CMakeUserPresets.json
+
+# Doxygen
+html/

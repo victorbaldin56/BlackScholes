@@ -1,0 +1,33 @@
+2025-05-21T18:21:36+03:00
+Running ./build/bs
+Run on (11 X 24 MHz CPU s)
+CPU Caches:
+  L1 Data 64 KiB
+  L1 Instruction 128 KiB
+  L2 Unified 4096 KiB (x11)
+Load Average: 2.21, 2.09, 2.10
+name,iterations,real_time,cpu_time,time_unit,bytes_per_second,items_per_second,label,error_occurred,error_message
+"BSBenchmark/scalar",37,2.90982e+07,1.9842e+07,ns,,,,,
+"BSBenchmark/scalar",37,2.86702e+07,1.89204e+07,ns,,,,,
+"BSBenchmark/scalar",37,2.84882e+07,2.03373e+07,ns,,,,,
+"BSBenchmark/scalar",37,2.86e+07,2.04643e+07,ns,,,,,
+"BSBenchmark/scalar",37,2.87234e+07,1.93434e+07,ns,,,,,
+"BSBenchmark/scalar",37,2.91082e+07,1.90885e+07,ns,,,,,
+"BSBenchmark/scalar",37,2.85446e+07,2.03686e+07,ns,,,,,
+"BSBenchmark/scalar",37,2.88159e+07,1.93599e+07,ns,,,,,
+"BSBenchmark/scalar_mean",8,2.87561e+07,1.97156e+07,ns,,,,,
+"BSBenchmark/scalar_median",8,2.86968e+07,1.9601e+07,ns,,,,,
+"BSBenchmark/scalar_stddev",8,237220,618755,ns,,,,,
+"BSBenchmark/scalar_cv",8,0.00824938,0.0313841,,,,,,
+"BSBenchmark/vector",44,2.57922e+07,1.47491e+07,ns,,,,,
+"BSBenchmark/vector",44,2.56448e+07,1.46058e+07,ns,,,,,
+"BSBenchmark/vector",44,2.58166e+07,1.48696e+07,ns,,,,,
+"BSBenchmark/vector",44,2.61264e+07,1.46322e+07,ns,,,,,
+"BSBenchmark/vector",44,2.55697e+07,1.49518e+07,ns,,,,,
+"BSBenchmark/vector",44,2.58162e+07,1.46648e+07,ns,,,,,
+"BSBenchmark/vector",44,2.55644e+07,1.42957e+07,ns,,,,,
+"BSBenchmark/vector",44,2.54794e+07,1.48353e+07,ns,,,,,
+"BSBenchmark/vector_mean",8,2.57262e+07,1.47005e+07,ns,,,,,
+"BSBenchmark/vector_median",8,2.57185e+07,1.4707e+07,ns,,,,,
+"BSBenchmark/vector_stddev",8,206661,203907,ns,,,,,
+"BSBenchmark/vector_cv",8,0.00803308,0.0138707,,,,,,
