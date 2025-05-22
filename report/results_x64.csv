@@ -1,0 +1,35 @@
+2025-05-22T07:39:34+00:00
+Running ./release/bs
+Run on (12 X 4400 MHz CPU s)
+CPU Caches:
+  L1 Data 48 KiB (x6)
+  L1 Instruction 32 KiB (x6)
+  L2 Unified 512 KiB (x6)
+  L3 Unified 12288 KiB (x1)
+Load Average: 0.34, 0.40, 0.20
+***WARNING*** CPU scaling is enabled, the benchmark real time measurements may be noisy and will incur extra overhead.
+name,iterations,real_time,cpu_time,time_unit,bytes_per_second,items_per_second,label,error_occurred,error_message
+"BSBenchmark/scalar",21,3.32407e+07,3.32174e+07,ns,,,,,
+"BSBenchmark/scalar",21,3.42595e+07,3.42182e+07,ns,,,,,
+"BSBenchmark/scalar",21,3.33006e+07,3.32741e+07,ns,,,,,
+"BSBenchmark/scalar",21,3.33181e+07,3.32914e+07,ns,,,,,
+"BSBenchmark/scalar",21,3.32615e+07,3.32357e+07,ns,,,,,
+"BSBenchmark/scalar",21,3.32665e+07,3.32405e+07,ns,,,,,
+"BSBenchmark/scalar",21,3.32732e+07,3.32473e+07,ns,,,,,
+"BSBenchmark/scalar",21,3.32638e+07,3.32381e+07,ns,,,,,
+"BSBenchmark/scalar_mean",8,3.3398e+07,3.33703e+07,ns,,,,,
+"BSBenchmark/scalar_median",8,3.32699e+07,3.32439e+07,ns,,,,,
+"BSBenchmark/scalar_stddev",8,348935,343374,ns,,,,,
+"BSBenchmark/scalar_cv",8,0.0104478,0.0102898,,,,,,
+"BSBenchmark/vector",25,2.7962e+07,2.79392e+07,ns,,,,,
+"BSBenchmark/vector",25,2.9265e+07,2.9227e+07,ns,,,,,
+"BSBenchmark/vector",25,2.79833e+07,2.79602e+07,ns,,,,,
+"BSBenchmark/vector",25,2.79027e+07,2.78811e+07,ns,,,,,
+"BSBenchmark/vector",25,2.79123e+07,2.78909e+07,ns,,,,,
+"BSBenchmark/vector",25,2.792e+07,2.78985e+07,ns,,,,,
+"BSBenchmark/vector",25,2.79473e+07,2.79256e+07,ns,,,,,
+"BSBenchmark/vector",25,2.79345e+07,2.79129e+07,ns,,,,,
+"BSBenchmark/vector_mean",8,2.81034e+07,2.80794e+07,ns,,,,,
+"BSBenchmark/vector_median",8,2.79409e+07,2.79192e+07,ns,,,,,
+"BSBenchmark/vector_stddev",8,470124,464429,ns,,,,,
+"BSBenchmark/vector_cv",8,0.0167284,0.0165398,,,,,,

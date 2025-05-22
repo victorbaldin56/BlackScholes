@@ -1,6 +1,7 @@
 #include "bs/compute.hh"
 
 #include <algorithm>
+#include <array>
 #include <cassert>
 #include <cmath>
 #include <random>
